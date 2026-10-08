@@ -1,0 +1,12 @@
+.env
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pcap
+*.pcapng
+data/agent-id
+data/pending/*
+!data/pending/.gitkeep
+.local-tools/
+*.egg-info/

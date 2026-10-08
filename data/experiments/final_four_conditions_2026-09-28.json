@@ -1,0 +1,1128 @@
+{
+  "agent_id": "549dc09b-4438-4e02-ad3b-2e70c4110b95",
+  "server_url": "http://192.168.0.201:8000",
+  "started_at": "2026-09-28T10:36:36.281654+00:00",
+  "records": [
+    {
+      "label": "NORMAL-01",
+      "server_id": 21,
+      "timestamp": "2026-09-28T10:32:17.404713Z",
+      "gateway_rtt_ms": 5.633,
+      "gateway_loss_pct": 0.0,
+      "internet_rtt_ms": 2.794,
+      "internet_loss_pct": 0.0,
+      "dns_system_ms": 60.0,
+      "dns_google_ms": 60.0,
+      "dns_cloudflare_ms": null,
+      "traceroute_hops": 12,
+      "http_ttfb_ms": 330.416,
+      "http_total_ms": 331.644,
+      "tcp_captured_packets": 31,
+      "tcp_retransmissions": 0,
+      "tcp_retransmission_pct": 0.0,
+      "collector_status": [
+        {
+          "name": "interface",
+          "status": "ok"
+        },
+        {
+          "name": "gateway_ping",
+          "status": "ok"
+        },
+        {
+          "name": "internet_ping",
+          "status": "ok"
+        },
+        {
+          "name": "dns",
+          "status": "partial"
+        },
+        {
+          "name": "traceroute",
+          "status": "ok"
+        },
+        {
+          "name": "http",
+          "status": "ok"
+        },
+        {
+          "name": "tshark",
+          "status": "ok"
+        },
+        {
+          "name": "iperf3",
+          "status": "skipped"
+        }
+      ],
+      "upload_result": "server persisted; service exit 0; queue 0",
+      "ai_available": true,
+      "rule_severity": "normal",
+      "rule_count": 0
+    },
+    {
+      "label": "NORMAL-02",
+      "server_id": 22,
+      "timestamp": "2026-09-28T10:36:40.849126Z",
+      "gateway_rtt_ms": 2.512,
+      "gateway_loss_pct": 0.0,
+      "internet_rtt_ms": 2.682,
+      "internet_loss_pct": 0.0,
+      "dns_system_ms": 1.0,
+      "dns_google_ms": 64.0,
+      "dns_cloudflare_ms": null,
+      "traceroute_hops": 12,
+      "http_ttfb_ms": 298.385,
+      "http_total_ms": 298.537,
+      "tcp_captured_packets": 27,
+      "tcp_retransmissions": 0,
+      "tcp_retransmission_pct": 0.0,
+      "collector_status": [
+        {
+          "name": "interface",
+          "status": "ok"
+        },
+        {
+          "name": "gateway_ping",
+          "status": "ok"
+        },
+        {
+          "name": "internet_ping",
+          "status": "ok"
+        },
+        {
+          "name": "dns",
+          "status": "partial"
+        },
+        {
+          "name": "traceroute",
+          "status": "ok"
+        },
+        {
+          "name": "http",
+          "status": "ok"
+        },
+        {
+          "name": "tshark",
+          "status": "ok"
+        },
+        {
+          "name": "iperf3",
+          "status": "skipped"
+        }
+      ],
+      "upload_result": "server persisted; service exit 0; queue 0",
+      "ai_available": true,
+      "rule_severity": "normal",
+      "rule_count": 0
+    },
+    {
+      "label": "NORMAL-03",
+      "server_id": 23,
+      "timestamp": "2026-09-28T10:37:33.640742Z",
+      "gateway_rtt_ms": 3.776,
+      "gateway_loss_pct": 0.0,
+      "internet_rtt_ms": 3.484,
+      "internet_loss_pct": 0.0,
+      "dns_system_ms": 64.0,
+      "dns_google_ms": 63.0,
+      "dns_cloudflare_ms": null,
+      "traceroute_hops": 12,
+      "http_ttfb_ms": 197.422,
+      "http_total_ms": 198.791,
+      "tcp_captured_packets": 34,
+      "tcp_retransmissions": 0,
+      "tcp_retransmission_pct": 0.0,
+      "collector_status": [
+        {
+          "name": "interface",
+          "status": "ok"
+        },
+        {
+          "name": "gateway_ping",
+          "status": "ok"
+        },
+        {
+          "name": "internet_ping",
+          "status": "ok"
+        },
+        {
+          "name": "dns",
+          "status": "partial"
+        },
+        {
+          "name": "traceroute",
+          "status": "ok"
+        },
+        {
+          "name": "http",
+          "status": "ok"
+        },
+        {
+          "name": "tshark",
+          "status": "ok"
+        },
+        {
+          "name": "iperf3",
+          "status": "skipped"
+        }
+      ],
+      "upload_result": "server persisted; service exit 0; queue 0",
+      "ai_available": true,
+      "rule_severity": "normal",
+      "rule_count": 0
+    },
+    {
+      "label": "NORMAL-04",
+      "server_id": 24,
+      "timestamp": "2026-09-28T10:38:24.902158Z",
+      "gateway_rtt_ms": 2.491,
+      "gateway_loss_pct": 0.0,
+      "internet_rtt_ms": 2.463,
+      "internet_loss_pct": 0.0,
+      "dns_system_ms": 1.0,
+      "dns_google_ms": 64.0,
+      "dns_cloudflare_ms": null,
+      "traceroute_hops": 12,
+      "http_ttfb_ms": 286.371,
+      "http_total_ms": 287.319,
+      "tcp_captured_packets": 32,
+      "tcp_retransmissions": 0,
+      "tcp_retransmission_pct": 0.0,
+      "collector_status": [
+        {
+          "name": "interface",
+          "status": "ok"
+        },
+        {
+          "name": "gateway_ping",
+          "status": "ok"
+        },
+        {
+          "name": "internet_ping",
+          "status": "ok"
+        },
+        {
+          "name": "dns",
+          "status": "partial"
+        },
+        {
+          "name": "traceroute",
+          "status": "ok"
+        },
+        {
+          "name": "http",
+          "status": "ok"
+        },
+        {
+          "name": "tshark",
+          "status": "ok"
+        },
+        {
+          "name": "iperf3",
+          "status": "skipped"
+        }
+      ],
+      "upload_result": "server persisted; service exit 0; queue 0",
+      "ai_available": true,
+      "rule_severity": "normal",
+      "rule_count": 0
+    },
+    {
+      "label": "NORMAL-05",
+      "server_id": 25,
+      "timestamp": "2026-09-28T10:39:14.962196Z",
+      "gateway_rtt_ms": 2.528,
+      "gateway_loss_pct": 0.0,
+      "internet_rtt_ms": 2.712,
+      "internet_loss_pct": 0.0,
+      "dns_system_ms": 1.0,
+      "dns_google_ms": 57.0,
+      "dns_cloudflare_ms": null,
+      "traceroute_hops": 12,
+      "http_ttfb_ms": 201.247,
+      "http_total_ms": 202.599,
+      "tcp_captured_packets": 28,
+      "tcp_retransmissions": 0,
+      "tcp_retransmission_pct": 0.0,
+      "collector_status": [
+        {
+          "name": "interface",
+          "status": "ok"
+        },
+        {
+          "name": "gateway_ping",
+          "status": "ok"
+        },
+        {
+          "name": "internet_ping",
+          "status": "ok"
+        },
+        {
+          "name": "dns",
+          "status": "partial"
+        },
+        {
+          "name": "traceroute",
+          "status": "ok"
+        },
+        {
+          "name": "http",
+          "status": "ok"
+        },
+        {
+          "name": "tshark",
+          "status": "ok"
+        },
+        {
+          "name": "iperf3",
+          "status": "skipped"
+        }
+      ],
+      "upload_result": "server persisted; service exit 0; queue 0",
+      "ai_available": true,
+      "rule_severity": "normal",
+      "rule_count": 0
+    },
+    {
+      "label": "LATENCY-01",
+      "server_id": 26,
+      "timestamp": "2026-09-28T10:40:36.317377Z",
+      "gateway_rtt_ms": 202.9,
+      "gateway_loss_pct": 0.0,
+      "internet_rtt_ms": 202.9,
+      "internet_loss_pct": 0.0,
+      "dns_system_ms": 0.0,
+      "dns_google_ms": 257.0,
+      "dns_cloudflare_ms": null,
+      "traceroute_hops": 12,
+      "http_ttfb_ms": 809.733,
+      "http_total_ms": 810.284,
+      "tcp_captured_packets": 29,
+      "tcp_retransmissions": 0,
+      "tcp_retransmission_pct": 0.0,
+      "collector_status": [
+        {
+          "name": "interface",
+          "status": "ok"
+        },
+        {
+          "name": "gateway_ping",
+          "status": "ok"
+        },
+        {
+          "name": "internet_ping",
+          "status": "ok"
+        },
+        {
+          "name": "dns",
+          "status": "partial"
+        },
+        {
+          "name": "traceroute",
+          "status": "ok"
+        },
+        {
+          "name": "http",
+          "status": "ok"
+        },
+        {
+          "name": "tshark",
+          "status": "ok"
+        },
+        {
+          "name": "iperf3",
+          "status": "skipped"
+        }
+      ],
+      "upload_result": "server persisted; service exit 0; queue 0",
+      "ai_available": true,
+      "rule_severity": "warning",
+      "rule_count": 3
+    },
+    {
+      "label": "LATENCY-02",
+      "server_id": 27,
+      "timestamp": "2026-09-28T10:41:35.467065Z",
+      "gateway_rtt_ms": 202.9,
+      "gateway_loss_pct": 0.0,
+      "internet_rtt_ms": 203.5,
+      "internet_loss_pct": 0.0,
+      "dns_system_ms": 0.0,
+      "dns_google_ms": 258.0,
+      "dns_cloudflare_ms": null,
+      "traceroute_hops": 12,
+      "http_ttfb_ms": 734.644,
+      "http_total_ms": 737.524,
+      "tcp_captured_packets": 28,
+      "tcp_retransmissions": 0,
+      "tcp_retransmission_pct": 0.0,
+      "collector_status": [
+        {
+          "name": "interface",
+          "status": "ok"
+        },
+        {
+          "name": "gateway_ping",
+          "status": "ok"
+        },
+        {
+          "name": "internet_ping",
+          "status": "ok"
+        },
+        {
+          "name": "dns",
+          "status": "partial"
+        },
+        {
+          "name": "traceroute",
+          "status": "ok"
+        },
+        {
+          "name": "http",
+          "status": "ok"
+        },
+        {
+          "name": "tshark",
+          "status": "ok"
+        },
+        {
+          "name": "iperf3",
+          "status": "skipped"
+        }
+      ],
+      "upload_result": "server persisted; service exit 0; queue 0",
+      "ai_available": true,
+      "rule_severity": "warning",
+      "rule_count": 2
+    },
+    {
+      "label": "LATENCY-03",
+      "server_id": 28,
+      "timestamp": "2026-09-28T10:42:34.127292Z",
+      "gateway_rtt_ms": 203.0,
+      "gateway_loss_pct": 0.0,
+      "internet_rtt_ms": 203.5,
+      "internet_loss_pct": 0.0,
+      "dns_system_ms": 263.0,
+      "dns_google_ms": 263.0,
+      "dns_cloudflare_ms": null,
+      "traceroute_hops": 12,
+      "http_ttfb_ms": 1066.528,
+      "http_total_ms": 1069.691,
+      "tcp_captured_packets": 30,
+      "tcp_retransmissions": 0,
+      "tcp_retransmission_pct": 0.0,
+      "collector_status": [
+        {
+          "name": "interface",
+          "status": "ok"
+        },
+        {
+          "name": "gateway_ping",
+          "status": "ok"
+        },
+        {
+          "name": "internet_ping",
+          "status": "ok"
+        },
+        {
+          "name": "dns",
+          "status": "partial"
+        },
+        {
+          "name": "traceroute",
+          "status": "ok"
+        },
+        {
+          "name": "http",
+          "status": "ok"
+        },
+        {
+          "name": "tshark",
+          "status": "ok"
+        },
+        {
+          "name": "iperf3",
+          "status": "skipped"
+        }
+      ],
+      "upload_result": "server persisted; service exit 0; queue 0",
+      "ai_available": true,
+      "rule_severity": "warning",
+      "rule_count": 3
+    },
+    {
+      "label": "LATENCY-04",
+      "server_id": 29,
+      "timestamp": "2026-09-28T10:43:33.927292Z",
+      "gateway_rtt_ms": 203.4,
+      "gateway_loss_pct": 0.0,
+      "internet_rtt_ms": 203.0,
+      "internet_loss_pct": 0.0,
+      "dns_system_ms": 0.0,
+      "dns_google_ms": 264.0,
+      "dns_cloudflare_ms": null,
+      "traceroute_hops": 12,
+      "http_ttfb_ms": 804.694,
+      "http_total_ms": 804.932,
+      "tcp_captured_packets": 40,
+      "tcp_retransmissions": 0,
+      "tcp_retransmission_pct": 0.0,
+      "collector_status": [
+        {
+          "name": "interface",
+          "status": "ok"
+        },
+        {
+          "name": "gateway_ping",
+          "status": "ok"
+        },
+        {
+          "name": "internet_ping",
+          "status": "ok"
+        },
+        {
+          "name": "dns",
+          "status": "partial"
+        },
+        {
+          "name": "traceroute",
+          "status": "ok"
+        },
+        {
+          "name": "http",
+          "status": "ok"
+        },
+        {
+          "name": "tshark",
+          "status": "ok"
+        },
+        {
+          "name": "iperf3",
+          "status": "skipped"
+        }
+      ],
+      "upload_result": "server persisted; service exit 0; queue 0",
+      "ai_available": true,
+      "rule_severity": "warning",
+      "rule_count": 3
+    },
+    {
+      "label": "LATENCY-05",
+      "server_id": 30,
+      "timestamp": "2026-09-28T10:44:32.485796Z",
+      "gateway_rtt_ms": 202.7,
+      "gateway_loss_pct": 0.0,
+      "internet_rtt_ms": 202.7,
+      "internet_loss_pct": 0.0,
+      "dns_system_ms": 0.0,
+      "dns_google_ms": 265.0,
+      "dns_cloudflare_ms": null,
+      "traceroute_hops": 12,
+      "http_ttfb_ms": 806.165,
+      "http_total_ms": 806.336,
+      "tcp_captured_packets": 38,
+      "tcp_retransmissions": 0,
+      "tcp_retransmission_pct": 0.0,
+      "collector_status": [
+        {
+          "name": "interface",
+          "status": "ok"
+        },
+        {
+          "name": "gateway_ping",
+          "status": "ok"
+        },
+        {
+          "name": "internet_ping",
+          "status": "ok"
+        },
+        {
+          "name": "dns",
+          "status": "partial"
+        },
+        {
+          "name": "traceroute",
+          "status": "ok"
+        },
+        {
+          "name": "http",
+          "status": "ok"
+        },
+        {
+          "name": "tshark",
+          "status": "ok"
+        },
+        {
+          "name": "iperf3",
+          "status": "skipped"
+        }
+      ],
+      "upload_result": "server persisted; service exit 0; queue 0",
+      "ai_available": true,
+      "rule_severity": "warning",
+      "rule_count": 3
+    },
+    {
+      "label": "LOSS-01",
+      "server_id": 31,
+      "timestamp": "2026-09-28T10:46:05.805428Z",
+      "gateway_rtt_ms": 2.865,
+      "gateway_loss_pct": 20.0,
+      "internet_rtt_ms": 3.192,
+      "internet_loss_pct": 10.0,
+      "dns_system_ms": 0.0,
+      "dns_google_ms": 64.0,
+      "dns_cloudflare_ms": null,
+      "traceroute_hops": 12,
+      "http_ttfb_ms": 690.465,
+      "http_total_ms": 692.331,
+      "tcp_captured_packets": 36,
+      "tcp_retransmissions": 3,
+      "tcp_retransmission_pct": 8.333,
+      "collector_status": [
+        {
+          "name": "interface",
+          "status": "ok"
+        },
+        {
+          "name": "gateway_ping",
+          "status": "ok"
+        },
+        {
+          "name": "internet_ping",
+          "status": "ok"
+        },
+        {
+          "name": "dns",
+          "status": "partial"
+        },
+        {
+          "name": "traceroute",
+          "status": "ok"
+        },
+        {
+          "name": "http",
+          "status": "ok"
+        },
+        {
+          "name": "tshark",
+          "status": "ok"
+        },
+        {
+          "name": "iperf3",
+          "status": "skipped"
+        }
+      ],
+      "upload_result": "server persisted; service exit 0; queue 0",
+      "ai_available": true,
+      "rule_severity": "warning",
+      "rule_count": 3
+    },
+    {
+      "label": "LOSS-02",
+      "server_id": 32,
+      "timestamp": "2026-09-28T10:47:05.744230Z",
+      "gateway_rtt_ms": 3.422,
+      "gateway_loss_pct": 20.0,
+      "internet_rtt_ms": 3.203,
+      "internet_loss_pct": 20.0,
+      "dns_system_ms": 0.0,
+      "dns_google_ms": 58.0,
+      "dns_cloudflare_ms": null,
+      "traceroute_hops": 12,
+      "http_ttfb_ms": 204.828,
+      "http_total_ms": 206.319,
+      "tcp_captured_packets": 25,
+      "tcp_retransmissions": 0,
+      "tcp_retransmission_pct": 0.0,
+      "collector_status": [
+        {
+          "name": "interface",
+          "status": "ok"
+        },
+        {
+          "name": "gateway_ping",
+          "status": "ok"
+        },
+        {
+          "name": "internet_ping",
+          "status": "ok"
+        },
+        {
+          "name": "dns",
+          "status": "partial"
+        },
+        {
+          "name": "traceroute",
+          "status": "ok"
+        },
+        {
+          "name": "http",
+          "status": "ok"
+        },
+        {
+          "name": "tshark",
+          "status": "ok"
+        },
+        {
+          "name": "iperf3",
+          "status": "skipped"
+        }
+      ],
+      "upload_result": "server persisted; service exit 0; queue 0",
+      "ai_available": true,
+      "rule_severity": "warning",
+      "rule_count": 2
+    },
+    {
+      "label": "LOSS-03",
+      "server_id": 33,
+      "timestamp": "2026-09-28T10:48:12.088214Z",
+      "gateway_rtt_ms": 2.654,
+      "gateway_loss_pct": 0.0,
+      "internet_rtt_ms": 3.361,
+      "internet_loss_pct": 10.0,
+      "dns_system_ms": null,
+      "dns_google_ms": 65.0,
+      "dns_cloudflare_ms": null,
+      "traceroute_hops": 12,
+      "http_ttfb_ms": 2280.194,
+      "http_total_ms": 2283.825,
+      "tcp_captured_packets": 30,
+      "tcp_retransmissions": 1,
+      "tcp_retransmission_pct": 3.333,
+      "collector_status": [
+        {
+          "name": "interface",
+          "status": "ok"
+        },
+        {
+          "name": "gateway_ping",
+          "status": "ok"
+        },
+        {
+          "name": "internet_ping",
+          "status": "ok"
+        },
+        {
+          "name": "dns",
+          "status": "partial"
+        },
+        {
+          "name": "traceroute",
+          "status": "ok"
+        },
+        {
+          "name": "http",
+          "status": "ok"
+        },
+        {
+          "name": "tshark",
+          "status": "ok"
+        },
+        {
+          "name": "iperf3",
+          "status": "skipped"
+        }
+      ],
+      "upload_result": "server persisted; service exit 0; queue 0",
+      "ai_available": true,
+      "rule_severity": "warning",
+      "rule_count": 2
+    },
+    {
+      "label": "LOSS-04",
+      "server_id": 34,
+      "timestamp": "2026-09-28T10:49:23.969932Z",
+      "gateway_rtt_ms": 2.698,
+      "gateway_loss_pct": 0.0,
+      "internet_rtt_ms": 6.941,
+      "internet_loss_pct": 10.0,
+      "dns_system_ms": 60.0,
+      "dns_google_ms": null,
+      "dns_cloudflare_ms": null,
+      "traceroute_hops": 12,
+      "http_ttfb_ms": 363.305,
+      "http_total_ms": 364.069,
+      "tcp_captured_packets": 30,
+      "tcp_retransmissions": 2,
+      "tcp_retransmission_pct": 6.667,
+      "collector_status": [
+        {
+          "name": "interface",
+          "status": "ok"
+        },
+        {
+          "name": "gateway_ping",
+          "status": "ok"
+        },
+        {
+          "name": "internet_ping",
+          "status": "ok"
+        },
+        {
+          "name": "dns",
+          "status": "partial"
+        },
+        {
+          "name": "traceroute",
+          "status": "ok"
+        },
+        {
+          "name": "http",
+          "status": "ok"
+        },
+        {
+          "name": "tshark",
+          "status": "ok"
+        },
+        {
+          "name": "iperf3",
+          "status": "skipped"
+        }
+      ],
+      "upload_result": "server persisted; service exit 0; queue 0",
+      "ai_available": true,
+      "rule_severity": "warning",
+      "rule_count": 2
+    },
+    {
+      "label": "LOSS-05",
+      "server_id": 35,
+      "timestamp": "2026-09-28T10:50:34.568973Z",
+      "gateway_rtt_ms": 1.989,
+      "gateway_loss_pct": 0.0,
+      "internet_rtt_ms": 3.715,
+      "internet_loss_pct": 0.0,
+      "dns_system_ms": 1.0,
+      "dns_google_ms": 66.0,
+      "dns_cloudflare_ms": null,
+      "traceroute_hops": 12,
+      "http_ttfb_ms": 260.206,
+      "http_total_ms": 262.824,
+      "tcp_captured_packets": 32,
+      "tcp_retransmissions": 1,
+      "tcp_retransmission_pct": 3.125,
+      "collector_status": [
+        {
+          "name": "interface",
+          "status": "ok"
+        },
+        {
+          "name": "gateway_ping",
+          "status": "ok"
+        },
+        {
+          "name": "internet_ping",
+          "status": "ok"
+        },
+        {
+          "name": "dns",
+          "status": "partial"
+        },
+        {
+          "name": "traceroute",
+          "status": "ok"
+        },
+        {
+          "name": "http",
+          "status": "ok"
+        },
+        {
+          "name": "tshark",
+          "status": "ok"
+        },
+        {
+          "name": "iperf3",
+          "status": "skipped"
+        }
+      ],
+      "upload_result": "server persisted; service exit 0; queue 0",
+      "ai_available": true,
+      "rule_severity": "normal",
+      "rule_count": 0
+    },
+    {
+      "label": "MIXED-01",
+      "server_id": 36,
+      "timestamp": "2026-09-28T10:52:04.323324Z",
+      "gateway_rtt_ms": 105.778,
+      "gateway_loss_pct": 10.0,
+      "internet_rtt_ms": 104.556,
+      "internet_loss_pct": 10.0,
+      "dns_system_ms": 0.0,
+      "dns_google_ms": 158.0,
+      "dns_cloudflare_ms": null,
+      "traceroute_hops": 12,
+      "http_ttfb_ms": 559.636,
+      "http_total_ms": 561.226,
+      "tcp_captured_packets": 27,
+      "tcp_retransmissions": 0,
+      "tcp_retransmission_pct": 0.0,
+      "collector_status": [
+        {
+          "name": "interface",
+          "status": "ok"
+        },
+        {
+          "name": "gateway_ping",
+          "status": "ok"
+        },
+        {
+          "name": "internet_ping",
+          "status": "ok"
+        },
+        {
+          "name": "dns",
+          "status": "partial"
+        },
+        {
+          "name": "traceroute",
+          "status": "ok"
+        },
+        {
+          "name": "http",
+          "status": "ok"
+        },
+        {
+          "name": "tshark",
+          "status": "ok"
+        },
+        {
+          "name": "iperf3",
+          "status": "skipped"
+        }
+      ],
+      "upload_result": "server persisted; service exit 0; queue 0",
+      "ai_available": true,
+      "rule_severity": "warning",
+      "rule_count": 3
+    },
+    {
+      "label": "MIXED-02",
+      "server_id": 37,
+      "timestamp": "2026-09-28T10:53:19.092874Z",
+      "gateway_rtt_ms": 103.556,
+      "gateway_loss_pct": 10.0,
+      "internet_rtt_ms": 102.8,
+      "internet_loss_pct": 0.0,
+      "dns_system_ms": 164.0,
+      "dns_google_ms": 163.0,
+      "dns_cloudflare_ms": null,
+      "traceroute_hops": 12,
+      "http_ttfb_ms": 984.275,
+      "http_total_ms": 984.607,
+      "tcp_captured_packets": 28,
+      "tcp_retransmissions": 1,
+      "tcp_retransmission_pct": 3.571,
+      "collector_status": [
+        {
+          "name": "interface",
+          "status": "ok"
+        },
+        {
+          "name": "gateway_ping",
+          "status": "ok"
+        },
+        {
+          "name": "internet_ping",
+          "status": "ok"
+        },
+        {
+          "name": "dns",
+          "status": "partial"
+        },
+        {
+          "name": "traceroute",
+          "status": "ok"
+        },
+        {
+          "name": "http",
+          "status": "ok"
+        },
+        {
+          "name": "tshark",
+          "status": "ok"
+        },
+        {
+          "name": "iperf3",
+          "status": "skipped"
+        }
+      ],
+      "upload_result": "server persisted; service exit 0; queue 0",
+      "ai_available": true,
+      "rule_severity": "warning",
+      "rule_count": 3
+    },
+    {
+      "label": "MIXED-03",
+      "server_id": 38,
+      "timestamp": "2026-09-28T10:54:21.194898Z",
+      "gateway_rtt_ms": 102.889,
+      "gateway_loss_pct": 10.0,
+      "internet_rtt_ms": 103.2,
+      "internet_loss_pct": 0.0,
+      "dns_system_ms": 1.0,
+      "dns_google_ms": 160.0,
+      "dns_cloudflare_ms": null,
+      "traceroute_hops": 12,
+      "http_ttfb_ms": 511.54,
+      "http_total_ms": 511.756,
+      "tcp_captured_packets": 28,
+      "tcp_retransmissions": 0,
+      "tcp_retransmission_pct": 0.0,
+      "collector_status": [
+        {
+          "name": "interface",
+          "status": "ok"
+        },
+        {
+          "name": "gateway_ping",
+          "status": "ok"
+        },
+        {
+          "name": "internet_ping",
+          "status": "ok"
+        },
+        {
+          "name": "dns",
+          "status": "partial"
+        },
+        {
+          "name": "traceroute",
+          "status": "ok"
+        },
+        {
+          "name": "http",
+          "status": "ok"
+        },
+        {
+          "name": "tshark",
+          "status": "ok"
+        },
+        {
+          "name": "iperf3",
+          "status": "skipped"
+        }
+      ],
+      "upload_result": "server persisted; service exit 0; queue 0",
+      "ai_available": true,
+      "rule_severity": "warning",
+      "rule_count": 2
+    },
+    {
+      "label": "MIXED-04",
+      "server_id": 39,
+      "timestamp": "2026-09-28T10:55:27.267667Z",
+      "gateway_rtt_ms": 103.0,
+      "gateway_loss_pct": 0.0,
+      "internet_rtt_ms": 104.125,
+      "internet_loss_pct": 20.0,
+      "dns_system_ms": 0.0,
+      "dns_google_ms": 159.0,
+      "dns_cloudflare_ms": null,
+      "traceroute_hops": 12,
+      "http_ttfb_ms": 1069.635,
+      "http_total_ms": 1069.795,
+      "tcp_captured_packets": 37,
+      "tcp_retransmissions": 1,
+      "tcp_retransmission_pct": 2.703,
+      "collector_status": [
+        {
+          "name": "interface",
+          "status": "ok"
+        },
+        {
+          "name": "gateway_ping",
+          "status": "ok"
+        },
+        {
+          "name": "internet_ping",
+          "status": "ok"
+        },
+        {
+          "name": "dns",
+          "status": "partial"
+        },
+        {
+          "name": "traceroute",
+          "status": "ok"
+        },
+        {
+          "name": "http",
+          "status": "ok"
+        },
+        {
+          "name": "tshark",
+          "status": "ok"
+        },
+        {
+          "name": "iperf3",
+          "status": "skipped"
+        }
+      ],
+      "upload_result": "server persisted; service exit 0; queue 0",
+      "ai_available": true,
+      "rule_severity": "warning",
+      "rule_count": 3
+    },
+    {
+      "label": "MIXED-05",
+      "server_id": 40,
+      "timestamp": "2026-09-28T10:56:29.464058Z",
+      "gateway_rtt_ms": 103.0,
+      "gateway_loss_pct": 0.0,
+      "internet_rtt_ms": 104.0,
+      "internet_loss_pct": 10.0,
+      "dns_system_ms": 0.0,
+      "dns_google_ms": 154.0,
+      "dns_cloudflare_ms": null,
+      "traceroute_hops": 12,
+      "http_ttfb_ms": 504.033,
+      "http_total_ms": 504.264,
+      "tcp_captured_packets": 39,
+      "tcp_retransmissions": 0,
+      "tcp_retransmission_pct": 0.0,
+      "collector_status": [
+        {
+          "name": "interface",
+          "status": "ok"
+        },
+        {
+          "name": "gateway_ping",
+          "status": "ok"
+        },
+        {
+          "name": "internet_ping",
+          "status": "ok"
+        },
+        {
+          "name": "dns",
+          "status": "partial"
+        },
+        {
+          "name": "traceroute",
+          "status": "ok"
+        },
+        {
+          "name": "http",
+          "status": "ok"
+        },
+        {
+          "name": "tshark",
+          "status": "ok"
+        },
+        {
+          "name": "iperf3",
+          "status": "skipped"
+        }
+      ],
+      "upload_result": "server persisted; service exit 0; queue 0",
+      "ai_available": true,
+      "rule_severity": "warning",
+      "rule_count": 2
+    }
+  ],
+  "failures": []
+}

@@ -1,0 +1,32 @@
+{
+  "checked_at": "2026-10-08T08:43:40.489327+00:00",
+  "health_http": 200,
+  "dashboard_http": 200,
+  "history_http": 200,
+  "old_id40_score_http": 200,
+  "old_id40_tcp": {
+    "sample_size": 39,
+    "quality": "low_sample",
+    "low_sample": true
+  },
+  "new_id41_score_http": 200,
+  "new_id41_score_created_at": "2026-10-08T08:36:52.803003Z",
+  "new_id41_tcp": {
+    "sample_size": 136,
+    "quality": "complete",
+    "low_sample": false
+  },
+  "history_count": 32,
+  "old_ids_21_to_40_unchanged": true,
+  "new_id41_count_in_history": 1,
+  "pending": 0,
+  "temporary_ntp_source_removed": true,
+  "original_selection_option_patterns_restored": true,
+  "chrony_config_files_unchanged": true,
+  "ntp_synchronized_after_original_restore": "no",
+  "chrony_tracking_after_original_restore": "Reference ID    : 00000000 ()\nStratum         : 0\nRef time (UTC)  : Thu Jan 01 00:00:00 1970\nSystem time     : 0.000000003 seconds slow of NTP time\nLast offset     : +0.000000000 seconds\nRMS offset      : 0.000000000 seconds\nFrequency       : 15.476 ppm slow\nResidual freq   : +0.000 ppm\nSkew            : 0.000 ppm\nRoot delay      : 1.000000000 seconds\nRoot dispersion : 1.000000000 seconds\nUpdate interval : 0.0 seconds\nLeap status     : Not synchronised\n",
+  "timer_enabled": "disabled",
+  "timer_active": "inactive",
+  "netem": "qdisc noqueue 0: root refcnt 2",
+  "api_key_found_in_report_or_evidence": false
+}

@@ -1,0 +1,21 @@
+{
+  "checked_at": "2026-10-04T01:32:59.568763+00:00",
+  "new_measurement_executed": false,
+  "new_upload_executed": false,
+  "measurement_list_http": 200,
+  "history_http": 200,
+  "existing_diagnosis_http": 200,
+  "existing_id40_ai_available": true,
+  "existing_rule_fields": [
+    "severity",
+    "findings",
+    "triggered_rules"
+  ],
+  "existing_measurements_count": 31,
+  "history_count": 31,
+  "server_ids_21_to_40_unchanged": true,
+  "local_files_unchanged": true,
+  "pending_count": 0,
+  "netem": "qdisc noqueue 0: root refcnt 2",
+  "ntp_synchronized": "no"
+}

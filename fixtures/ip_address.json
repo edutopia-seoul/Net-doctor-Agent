@@ -1,0 +1,1 @@
+[{"ifname":"lo","addr_info":[{"family":"inet","local":"127.0.0.1"}]},{"ifname":"enp3s0","address":"00:00:00:00:00:00","operstate":"UP","addr_info":[{"family":"inet","local":"192.0.2.20"}]}]

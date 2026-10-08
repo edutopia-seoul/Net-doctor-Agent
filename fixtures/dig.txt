@@ -1,0 +1,2 @@
+example.com.  300  IN  A  93.184.215.14
+;; Query time: 25 msec

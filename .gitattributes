@@ -1,0 +1,2 @@
+# Empty trailing TSV fields are part of the TShark parser fixture.
+fixtures/tshark.tsv whitespace=-blank-at-eol

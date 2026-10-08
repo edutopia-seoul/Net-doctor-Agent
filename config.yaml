@@ -1,0 +1,9 @@
+internet_host: 1.1.1.1
+dns_domain: example.com
+http_url: https://example.com
+iperf_host: null
+iperf_port: 5201
+ping_count: 10
+traceroute_max_hops: 12
+tshark_duration_seconds: 5
+timeout_seconds: 15

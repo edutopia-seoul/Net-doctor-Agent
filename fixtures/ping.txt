@@ -1,0 +1,5 @@
+64 bytes from 192.0.2.1: icmp_seq=1 ttl=64 time=1.0 ms
+64 bytes from 192.0.2.1: icmp_seq=2 ttl=64 time=3.0 ms
+64 bytes from 192.0.2.1: icmp_seq=4 ttl=64 time=4.0 ms
+4 packets transmitted, 3 received, 25% packet loss, time 3000ms
+rtt min/avg/max/mdev = 1.000/2.667/4.000/1.247 ms

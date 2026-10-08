@@ -1,0 +1,1164 @@
+{
+  "checked_at": "2026-10-08T08:37:40.856875+00:00",
+  "registration_http": 200,
+  "measurement": {
+    "schema_version": "1.0",
+    "agent_id": "549dc09b-4438-4e02-ad3b-2e70c4110b95",
+    "timestamp": "2026-10-08T08:36:13.083736+00:00",
+    "target_profile": {
+      "internet_host": "1.1.1.1",
+      "dns_domain": "example.com",
+      "http_url": "https://example.com",
+      "iperf_host": null
+    },
+    "network": {
+      "default_interface": "wlp1s0",
+      "local_ip": "192.168.0.202",
+      "gateway": "192.168.0.1",
+      "dns_servers": [
+        "1.1.1.1",
+        "8.8.8.8"
+      ]
+    },
+    "metrics": {
+      "gateway_ping": {
+        "min_rtt_ms": 1.65,
+        "avg_rtt_ms": 2.482,
+        "max_rtt_ms": 3.87,
+        "packet_loss_pct": 0,
+        "jitter_ms": 1.162
+      },
+      "internet_ping": {
+        "min_rtt_ms": 1.83,
+        "avg_rtt_ms": 2.832,
+        "max_rtt_ms": 3.71,
+        "packet_loss_pct": 0,
+        "jitter_ms": 0.334
+      },
+      "dns": {
+        "system_ms": 66,
+        "cloudflare_ms": null,
+        "google_ms": 61,
+        "resolved_ip": "172.66.147.243",
+        "query_success": {
+          "system": true,
+          "cloudflare": false,
+          "google": true
+        }
+      },
+      "traceroute": {
+        "hop_count": 12,
+        "latency_jump_hop": null,
+        "latency_jump_ms": null,
+        "hops": [
+          {
+            "hop": 1,
+            "address": "192.168.0.1",
+            "avg_rtt_ms": 1.914,
+            "timeout": false
+          },
+          {
+            "hop": 2,
+            "address": null,
+            "avg_rtt_ms": null,
+            "timeout": true
+          },
+          {
+            "hop": 3,
+            "address": null,
+            "avg_rtt_ms": null,
+            "timeout": true
+          },
+          {
+            "hop": 4,
+            "address": null,
+            "avg_rtt_ms": null,
+            "timeout": true
+          },
+          {
+            "hop": 5,
+            "address": null,
+            "avg_rtt_ms": null,
+            "timeout": true
+          },
+          {
+            "hop": 6,
+            "address": null,
+            "avg_rtt_ms": null,
+            "timeout": true
+          },
+          {
+            "hop": 7,
+            "address": null,
+            "avg_rtt_ms": null,
+            "timeout": true
+          },
+          {
+            "hop": 8,
+            "address": null,
+            "avg_rtt_ms": null,
+            "timeout": true
+          },
+          {
+            "hop": 9,
+            "address": null,
+            "avg_rtt_ms": null,
+            "timeout": true
+          },
+          {
+            "hop": 10,
+            "address": null,
+            "avg_rtt_ms": null,
+            "timeout": true
+          },
+          {
+            "hop": 11,
+            "address": null,
+            "avg_rtt_ms": null,
+            "timeout": true
+          },
+          {
+            "hop": 12,
+            "address": null,
+            "avg_rtt_ms": null,
+            "timeout": true
+          }
+        ]
+      },
+      "http": {
+        "dns_ms": 65.231,
+        "connect_ms": 125.545,
+        "tls_ms": 67.72,
+        "ttfb_ms": 256.508,
+        "total_ms": 257.28,
+        "status_code": 200
+      },
+      "tcp": {
+        "captured_packets": 136,
+        "retransmissions": 0,
+        "retransmission_pct": 0,
+        "duplicate_ack": 0,
+        "rst": 0,
+        "zero_window": 0
+      },
+      "throughput": {
+        "tcp_mbps": null,
+        "udp_mbps": null,
+        "udp_jitter_ms": null,
+        "udp_loss_pct": null
+      }
+    },
+    "collector_status": [
+      {
+        "name": "interface",
+        "status": "ok",
+        "message": ""
+      },
+      {
+        "name": "gateway_ping",
+        "status": "ok",
+        "message": ""
+      },
+      {
+        "name": "internet_ping",
+        "status": "ok",
+        "message": ""
+      },
+      {
+        "name": "dns",
+        "status": "partial",
+        "message": "some resolver queries failed"
+      },
+      {
+        "name": "traceroute",
+        "status": "ok",
+        "message": ""
+      },
+      {
+        "name": "http",
+        "status": "ok",
+        "message": ""
+      },
+      {
+        "name": "tshark",
+        "status": "ok",
+        "message": ""
+      },
+      {
+        "name": "iperf3",
+        "status": "skipped",
+        "message": "not configured"
+      }
+    ]
+  },
+  "tcp_capture": {
+    "filter": "tcp and host 104.20.23.154 and port 443",
+    "duration_seconds": 20
+  },
+  "tcp_extra_requests": [
+    {
+      "number": 1,
+      "exit_code": 0,
+      "http_status": "200"
+    },
+    {
+      "number": 2,
+      "exit_code": 0,
+      "http_status": "200"
+    },
+    {
+      "number": 3,
+      "exit_code": 0,
+      "http_status": "200"
+    },
+    {
+      "number": 4,
+      "exit_code": 0,
+      "http_status": "200"
+    }
+  ],
+  "post_start": "2026-10-08T08:36:52.718298+00:00",
+  "post_end": "2026-10-08T08:37:40.599617+00:00",
+  "post_http": 200,
+  "post_response": {
+    "id": 41,
+    "agent_id": "549dc09b-4438-4e02-ad3b-2e70c4110b95",
+    "timestamp": "2026-10-08T08:36:13.083736Z",
+    "target_profile": {
+      "http_url": "https://example.com",
+      "dns_domain": "example.com",
+      "iperf_host": null,
+      "internet_host": "1.1.1.1"
+    },
+    "network": {
+      "gateway": "192.168.0.1",
+      "local_ip": "192.168.0.202",
+      "dns_servers": [
+        "1.1.1.1",
+        "8.8.8.8"
+      ],
+      "default_interface": "wlp1s0"
+    },
+    "metrics": {
+      "dns": {
+        "google_ms": 61,
+        "system_ms": 66,
+        "resolved_ip": "172.66.147.243",
+        "cloudflare_ms": null
+      },
+      "tcp": {
+        "rst": 0,
+        "zero_window": 0,
+        "duplicate_ack": 0,
+        "retransmissions": 0,
+        "captured_packets": 136,
+        "retransmission_pct": 0
+      },
+      "http": {
+        "dns_ms": 65.231,
+        "tls_ms": 67.72,
+        "ttfb_ms": 256.508,
+        "total_ms": 257.28,
+        "connect_ms": 125.545,
+        "status_code": 200
+      },
+      "throughput": {
+        "tcp_mbps": null,
+        "udp_mbps": null,
+        "udp_loss_pct": null,
+        "udp_jitter_ms": null
+      },
+      "traceroute": {
+        "hops": [
+          {
+            "hop": 1,
+            "address": "192.168.0.1",
+            "timeout": false,
+            "avg_rtt_ms": 1.914
+          },
+          {
+            "hop": 2,
+            "address": null,
+            "timeout": true,
+            "avg_rtt_ms": null
+          },
+          {
+            "hop": 3,
+            "address": null,
+            "timeout": true,
+            "avg_rtt_ms": null
+          },
+          {
+            "hop": 4,
+            "address": null,
+            "timeout": true,
+            "avg_rtt_ms": null
+          },
+          {
+            "hop": 5,
+            "address": null,
+            "timeout": true,
+            "avg_rtt_ms": null
+          },
+          {
+            "hop": 6,
+            "address": null,
+            "timeout": true,
+            "avg_rtt_ms": null
+          },
+          {
+            "hop": 7,
+            "address": null,
+            "timeout": true,
+            "avg_rtt_ms": null
+          },
+          {
+            "hop": 8,
+            "address": null,
+            "timeout": true,
+            "avg_rtt_ms": null
+          },
+          {
+            "hop": 9,
+            "address": null,
+            "timeout": true,
+            "avg_rtt_ms": null
+          },
+          {
+            "hop": 10,
+            "address": null,
+            "timeout": true,
+            "avg_rtt_ms": null
+          },
+          {
+            "hop": 11,
+            "address": null,
+            "timeout": true,
+            "avg_rtt_ms": null
+          },
+          {
+            "hop": 12,
+            "address": null,
+            "timeout": true,
+            "avg_rtt_ms": null
+          }
+        ],
+        "hop_count": 12,
+        "latency_jump_ms": null,
+        "latency_jump_hop": null
+      },
+      "gateway_ping": {
+        "jitter_ms": 1.162,
+        "avg_rtt_ms": 2.482,
+        "max_rtt_ms": 3.87,
+        "min_rtt_ms": 1.65,
+        "packet_loss_pct": 0
+      },
+      "internet_ping": {
+        "jitter_ms": 0.334,
+        "avg_rtt_ms": 2.832,
+        "max_rtt_ms": 3.71,
+        "min_rtt_ms": 1.83,
+        "packet_loss_pct": 0
+      }
+    },
+    "collector_status": [
+      {
+        "name": "interface",
+        "status": "ok",
+        "message": ""
+      },
+      {
+        "name": "gateway_ping",
+        "status": "ok",
+        "message": ""
+      },
+      {
+        "name": "internet_ping",
+        "status": "ok",
+        "message": ""
+      },
+      {
+        "name": "dns",
+        "status": "partial",
+        "message": "some resolver queries failed"
+      },
+      {
+        "name": "traceroute",
+        "status": "ok",
+        "message": ""
+      },
+      {
+        "name": "http",
+        "status": "ok",
+        "message": ""
+      },
+      {
+        "name": "tshark",
+        "status": "ok",
+        "message": ""
+      },
+      {
+        "name": "iperf3",
+        "status": "skipped",
+        "message": "not configured"
+      }
+    ],
+    "created_at": "2026-10-08T08:36:52.803003Z",
+    "health_score": {
+      "measurement_id": 41,
+      "score_version": "health-score-v1.1",
+      "config_hash": "96d12b4a02c4859be65fa65ffb56e1bcda6bd6d60f9098f75c75602380f71ed1",
+      "weights": {
+        "dns": 0.15,
+        "tcp": 0.2,
+        "http": 0.2,
+        "local": 0.2,
+        "internet": 0.25
+      },
+      "overall": {
+        "score": 100,
+        "severity": "normal",
+        "base_severity": "normal",
+        "status": "normal",
+        "guard_triggered": [],
+        "guard_reason": null,
+        "available": true,
+        "coverage": 0.95,
+        "included_weight": 1,
+        "quality": "partial",
+        "notes": [
+          "측정 범위/표본 제한이 있습니다. 점수는 수집된 지표에 대한 평가입니다."
+        ]
+      },
+      "categories": {
+        "dns": {
+          "score": 100,
+          "severity": "normal",
+          "available": true,
+          "coverage": 0.6667,
+          "quality": "partial",
+          "low_sample": false,
+          "sample_size": null,
+          "evidence": {
+            "dns.google_ms": 61,
+            "dns.system_ms": 66
+          },
+          "missing_metrics": [
+            "dns.cloudflare_ms"
+          ],
+          "notes": [
+            "dns 수집 상태: partial (성능 감점과 구분)",
+            "결측·유효하지 않은 지표는 점수 입력에서 제외합니다."
+          ],
+          "deductions": []
+        },
+        "tcp": {
+          "score": 100,
+          "severity": "normal",
+          "available": true,
+          "coverage": 1,
+          "quality": "complete",
+          "low_sample": false,
+          "sample_size": 136,
+          "evidence": {
+            "tcp.rst": 0,
+            "tcp.zero_window": 0,
+            "tcp.duplicate_ack": 0,
+            "tcp.captured_packets": 136,
+            "tcp.retransmission_pct": 0
+          },
+          "missing_metrics": [],
+          "notes": [],
+          "deductions": []
+        },
+        "http": {
+          "score": 100,
+          "severity": "normal",
+          "available": true,
+          "coverage": 1,
+          "quality": "complete",
+          "low_sample": false,
+          "sample_size": null,
+          "evidence": {
+            "http.tls_ms": 67.72,
+            "http.ttfb_ms": 256.508,
+            "http.total_ms": 257.28,
+            "http.connect_ms": 125.545,
+            "http.status_code": 200
+          },
+          "missing_metrics": [],
+          "notes": [],
+          "deductions": []
+        },
+        "local": {
+          "score": 100,
+          "severity": "normal",
+          "available": true,
+          "coverage": 1,
+          "quality": "complete",
+          "low_sample": false,
+          "sample_size": null,
+          "evidence": {
+            "gateway_ping.avg_rtt_ms": 2.482,
+            "gateway_ping.packet_loss_pct": 0
+          },
+          "missing_metrics": [],
+          "notes": [],
+          "deductions": []
+        },
+        "internet": {
+          "score": 100,
+          "severity": "normal",
+          "available": true,
+          "coverage": 1,
+          "quality": "complete",
+          "low_sample": false,
+          "sample_size": null,
+          "evidence": {
+            "internet_ping.avg_rtt_ms": 2.832,
+            "internet_ping.packet_loss_pct": 0
+          },
+          "missing_metrics": [],
+          "notes": [],
+          "deductions": []
+        }
+      },
+      "top_causes": [],
+      "created_at": "2026-10-08T08:36:52.803003Z"
+    }
+  },
+  "post_error": null,
+  "list_http": 200,
+  "saved_identical": false,
+  "server_measurement_id": 41,
+  "health_scores": {
+    "health-score-v1": {
+      "http": 404,
+      "data": {
+        "detail": "health score not stored for the requested version"
+      }
+    },
+    "health-score-v1.1": {
+      "http": 200,
+      "data": {
+        "measurement_id": 41,
+        "score_version": "health-score-v1.1",
+        "config_hash": "96d12b4a02c4859be65fa65ffb56e1bcda6bd6d60f9098f75c75602380f71ed1",
+        "weights": {
+          "dns": 0.15,
+          "tcp": 0.2,
+          "http": 0.2,
+          "local": 0.2,
+          "internet": 0.25
+        },
+        "overall": {
+          "score": 100,
+          "severity": "normal",
+          "base_severity": "normal",
+          "status": "normal",
+          "guard_triggered": [],
+          "guard_reason": null,
+          "available": true,
+          "coverage": 0.95,
+          "included_weight": 1,
+          "quality": "partial",
+          "notes": [
+            "측정 범위/표본 제한이 있습니다. 점수는 수집된 지표에 대한 평가입니다."
+          ]
+        },
+        "categories": {
+          "dns": {
+            "score": 100,
+            "severity": "normal",
+            "available": true,
+            "coverage": 0.6667,
+            "quality": "partial",
+            "low_sample": false,
+            "sample_size": null,
+            "evidence": {
+              "dns.google_ms": 61,
+              "dns.system_ms": 66
+            },
+            "missing_metrics": [
+              "dns.cloudflare_ms"
+            ],
+            "notes": [
+              "dns 수집 상태: partial (성능 감점과 구분)",
+              "결측·유효하지 않은 지표는 점수 입력에서 제외합니다."
+            ],
+            "deductions": []
+          },
+          "tcp": {
+            "score": 100,
+            "severity": "normal",
+            "available": true,
+            "coverage": 1,
+            "quality": "complete",
+            "low_sample": false,
+            "sample_size": 136,
+            "evidence": {
+              "tcp.rst": 0,
+              "tcp.zero_window": 0,
+              "tcp.duplicate_ack": 0,
+              "tcp.captured_packets": 136,
+              "tcp.retransmission_pct": 0
+            },
+            "missing_metrics": [],
+            "notes": [],
+            "deductions": []
+          },
+          "http": {
+            "score": 100,
+            "severity": "normal",
+            "available": true,
+            "coverage": 1,
+            "quality": "complete",
+            "low_sample": false,
+            "sample_size": null,
+            "evidence": {
+              "http.tls_ms": 67.72,
+              "http.ttfb_ms": 256.508,
+              "http.total_ms": 257.28,
+              "http.connect_ms": 125.545,
+              "http.status_code": 200
+            },
+            "missing_metrics": [],
+            "notes": [],
+            "deductions": []
+          },
+          "local": {
+            "score": 100,
+            "severity": "normal",
+            "available": true,
+            "coverage": 1,
+            "quality": "complete",
+            "low_sample": false,
+            "sample_size": null,
+            "evidence": {
+              "gateway_ping.avg_rtt_ms": 2.482,
+              "gateway_ping.packet_loss_pct": 0
+            },
+            "missing_metrics": [],
+            "notes": [],
+            "deductions": []
+          },
+          "internet": {
+            "score": 100,
+            "severity": "normal",
+            "available": true,
+            "coverage": 1,
+            "quality": "complete",
+            "low_sample": false,
+            "sample_size": null,
+            "evidence": {
+              "internet_ping.avg_rtt_ms": 2.832,
+              "internet_ping.packet_loss_pct": 0
+            },
+            "missing_metrics": [],
+            "notes": [],
+            "deductions": []
+          }
+        },
+        "top_causes": [],
+        "created_at": "2026-10-08T08:36:52.803003Z"
+      }
+    }
+  },
+  "diagnosis_http": 200,
+  "diagnosis": {
+    "measurement": {
+      "id": 41,
+      "agent_id": "549dc09b-4438-4e02-ad3b-2e70c4110b95",
+      "timestamp": "2026-10-08T08:36:13.083736Z",
+      "target_profile": {
+        "http_url": "https://example.com",
+        "dns_domain": "example.com",
+        "iperf_host": null,
+        "internet_host": "1.1.1.1"
+      },
+      "network": {
+        "gateway": "192.168.0.1",
+        "local_ip": "192.168.0.202",
+        "dns_servers": [
+          "1.1.1.1",
+          "8.8.8.8"
+        ],
+        "default_interface": "wlp1s0"
+      },
+      "metrics": {
+        "dns": {
+          "google_ms": 61,
+          "system_ms": 66,
+          "resolved_ip": "172.66.147.243",
+          "cloudflare_ms": null
+        },
+        "tcp": {
+          "rst": 0,
+          "zero_window": 0,
+          "duplicate_ack": 0,
+          "retransmissions": 0,
+          "captured_packets": 136,
+          "retransmission_pct": 0
+        },
+        "http": {
+          "dns_ms": 65.231,
+          "tls_ms": 67.72,
+          "ttfb_ms": 256.508,
+          "total_ms": 257.28,
+          "connect_ms": 125.545,
+          "status_code": 200
+        },
+        "throughput": {
+          "tcp_mbps": null,
+          "udp_mbps": null,
+          "udp_loss_pct": null,
+          "udp_jitter_ms": null
+        },
+        "traceroute": {
+          "hops": [
+            {
+              "hop": 1,
+              "address": "192.168.0.1",
+              "timeout": false,
+              "avg_rtt_ms": 1.914
+            },
+            {
+              "hop": 2,
+              "address": null,
+              "timeout": true,
+              "avg_rtt_ms": null
+            },
+            {
+              "hop": 3,
+              "address": null,
+              "timeout": true,
+              "avg_rtt_ms": null
+            },
+            {
+              "hop": 4,
+              "address": null,
+              "timeout": true,
+              "avg_rtt_ms": null
+            },
+            {
+              "hop": 5,
+              "address": null,
+              "timeout": true,
+              "avg_rtt_ms": null
+            },
+            {
+              "hop": 6,
+              "address": null,
+              "timeout": true,
+              "avg_rtt_ms": null
+            },
+            {
+              "hop": 7,
+              "address": null,
+              "timeout": true,
+              "avg_rtt_ms": null
+            },
+            {
+              "hop": 8,
+              "address": null,
+              "timeout": true,
+              "avg_rtt_ms": null
+            },
+            {
+              "hop": 9,
+              "address": null,
+              "timeout": true,
+              "avg_rtt_ms": null
+            },
+            {
+              "hop": 10,
+              "address": null,
+              "timeout": true,
+              "avg_rtt_ms": null
+            },
+            {
+              "hop": 11,
+              "address": null,
+              "timeout": true,
+              "avg_rtt_ms": null
+            },
+            {
+              "hop": 12,
+              "address": null,
+              "timeout": true,
+              "avg_rtt_ms": null
+            }
+          ],
+          "hop_count": 12,
+          "latency_jump_ms": null,
+          "latency_jump_hop": null
+        },
+        "gateway_ping": {
+          "jitter_ms": 1.162,
+          "avg_rtt_ms": 2.482,
+          "max_rtt_ms": 3.87,
+          "min_rtt_ms": 1.65,
+          "packet_loss_pct": 0
+        },
+        "internet_ping": {
+          "jitter_ms": 0.334,
+          "avg_rtt_ms": 2.832,
+          "max_rtt_ms": 3.71,
+          "min_rtt_ms": 1.83,
+          "packet_loss_pct": 0
+        }
+      },
+      "collector_status": [
+        {
+          "name": "interface",
+          "status": "ok",
+          "message": ""
+        },
+        {
+          "name": "gateway_ping",
+          "status": "ok",
+          "message": ""
+        },
+        {
+          "name": "internet_ping",
+          "status": "ok",
+          "message": ""
+        },
+        {
+          "name": "dns",
+          "status": "partial",
+          "message": "some resolver queries failed"
+        },
+        {
+          "name": "traceroute",
+          "status": "ok",
+          "message": ""
+        },
+        {
+          "name": "http",
+          "status": "ok",
+          "message": ""
+        },
+        {
+          "name": "tshark",
+          "status": "ok",
+          "message": ""
+        },
+        {
+          "name": "iperf3",
+          "status": "skipped",
+          "message": "not configured"
+        }
+      ],
+      "created_at": "2026-10-08T08:36:52.803003Z",
+      "health_score": {
+        "measurement_id": 41,
+        "score_version": "health-score-v1.1",
+        "config_hash": "96d12b4a02c4859be65fa65ffb56e1bcda6bd6d60f9098f75c75602380f71ed1",
+        "weights": {
+          "dns": 0.15,
+          "tcp": 0.2,
+          "http": 0.2,
+          "local": 0.2,
+          "internet": 0.25
+        },
+        "overall": {
+          "score": 100,
+          "severity": "normal",
+          "base_severity": "normal",
+          "status": "normal",
+          "guard_triggered": [],
+          "guard_reason": null,
+          "available": true,
+          "coverage": 0.95,
+          "included_weight": 1,
+          "quality": "partial",
+          "notes": [
+            "측정 범위/표본 제한이 있습니다. 점수는 수집된 지표에 대한 평가입니다."
+          ]
+        },
+        "categories": {
+          "dns": {
+            "score": 100,
+            "severity": "normal",
+            "available": true,
+            "coverage": 0.6667,
+            "quality": "partial",
+            "low_sample": false,
+            "sample_size": null,
+            "evidence": {
+              "dns.google_ms": 61,
+              "dns.system_ms": 66
+            },
+            "missing_metrics": [
+              "dns.cloudflare_ms"
+            ],
+            "notes": [
+              "dns 수집 상태: partial (성능 감점과 구분)",
+              "결측·유효하지 않은 지표는 점수 입력에서 제외합니다."
+            ],
+            "deductions": []
+          },
+          "tcp": {
+            "score": 100,
+            "severity": "normal",
+            "available": true,
+            "coverage": 1,
+            "quality": "complete",
+            "low_sample": false,
+            "sample_size": 136,
+            "evidence": {
+              "tcp.rst": 0,
+              "tcp.zero_window": 0,
+              "tcp.duplicate_ack": 0,
+              "tcp.captured_packets": 136,
+              "tcp.retransmission_pct": 0
+            },
+            "missing_metrics": [],
+            "notes": [],
+            "deductions": []
+          },
+          "http": {
+            "score": 100,
+            "severity": "normal",
+            "available": true,
+            "coverage": 1,
+            "quality": "complete",
+            "low_sample": false,
+            "sample_size": null,
+            "evidence": {
+              "http.tls_ms": 67.72,
+              "http.ttfb_ms": 256.508,
+              "http.total_ms": 257.28,
+              "http.connect_ms": 125.545,
+              "http.status_code": 200
+            },
+            "missing_metrics": [],
+            "notes": [],
+            "deductions": []
+          },
+          "local": {
+            "score": 100,
+            "severity": "normal",
+            "available": true,
+            "coverage": 1,
+            "quality": "complete",
+            "low_sample": false,
+            "sample_size": null,
+            "evidence": {
+              "gateway_ping.avg_rtt_ms": 2.482,
+              "gateway_ping.packet_loss_pct": 0
+            },
+            "missing_metrics": [],
+            "notes": [],
+            "deductions": []
+          },
+          "internet": {
+            "score": 100,
+            "severity": "normal",
+            "available": true,
+            "coverage": 1,
+            "quality": "complete",
+            "low_sample": false,
+            "sample_size": null,
+            "evidence": {
+              "internet_ping.avg_rtt_ms": 2.832,
+              "internet_ping.packet_loss_pct": 0
+            },
+            "missing_metrics": [],
+            "notes": [],
+            "deductions": []
+          }
+        },
+        "top_causes": [],
+        "created_at": "2026-10-08T08:36:52.803003Z"
+      }
+    },
+    "rule_diagnosis": {
+      "severity": "normal",
+      "findings": [],
+      "triggered_rules": []
+    },
+    "ai_diagnosis": {
+      "available": true,
+      "severity": "normal",
+      "primary_cause": "규칙 기준에서 뚜렷한 장애 징후가 확인되지 않았습니다.",
+      "confidence": "HIGH",
+      "measured_facts": [
+        "gateway_ping.min_rtt_ms=1.65",
+        "gateway_ping.avg_rtt_ms=2.482",
+        "gateway_ping.max_rtt_ms=3.87",
+        "gateway_ping.packet_loss_pct=0.0",
+        "gateway_ping.jitter_ms=1.162",
+        "internet_ping.min_rtt_ms=1.83",
+        "internet_ping.avg_rtt_ms=2.832",
+        "internet_ping.max_rtt_ms=3.71",
+        "internet_ping.packet_loss_pct=0.0",
+        "internet_ping.jitter_ms=0.334",
+        "dns.system_ms=66.0",
+        "dns.google_ms=61.0",
+        "dns.resolved_ip=172.66.147.243",
+        "traceroute.hop_count=12",
+        "http.dns_ms=65.231",
+        "http.connect_ms=125.545",
+        "http.tls_ms=67.72",
+        "http.ttfb_ms=256.508",
+        "http.total_ms=257.28",
+        "http.status_code=200",
+        "tcp.captured_packets=136",
+        "tcp.retransmissions=0",
+        "tcp.retransmission_pct=0.0",
+        "tcp.duplicate_ack=0",
+        "tcp.rst=0",
+        "tcp.zero_window=0"
+      ],
+      "rule_findings": [],
+      "hypotheses": [
+        "DNS 수집기 일부 쿼리가 실패했지만 현재 상태는 정상입니다."
+      ],
+      "impact": "현재 네트워크 연결과 웹 접근성은 원활하지만 DNS 응답 시간이 과거보다 개선되었습니다.",
+      "recommendations": [
+        "현재 상태를 유지하며 주기적으로 다시 측정하세요."
+      ],
+      "additional_checks": [],
+      "model": "qwen3.5:4b-q4_K_M",
+      "error": null
+    }
+  },
+  "history_http": 200,
+  "history_contains_new": true,
+  "repeat_score_http": 200,
+  "repeat_score": {
+    "measurement_id": 41,
+    "score_version": "health-score-v1.1",
+    "config_hash": "96d12b4a02c4859be65fa65ffb56e1bcda6bd6d60f9098f75c75602380f71ed1",
+    "weights": {
+      "dns": 0.15,
+      "tcp": 0.2,
+      "http": 0.2,
+      "local": 0.2,
+      "internet": 0.25
+    },
+    "overall": {
+      "score": 100,
+      "severity": "normal",
+      "base_severity": "normal",
+      "status": "normal",
+      "guard_triggered": [],
+      "guard_reason": null,
+      "available": true,
+      "coverage": 0.95,
+      "included_weight": 1,
+      "quality": "partial",
+      "notes": [
+        "측정 범위/표본 제한이 있습니다. 점수는 수집된 지표에 대한 평가입니다."
+      ]
+    },
+    "categories": {
+      "dns": {
+        "score": 100,
+        "severity": "normal",
+        "available": true,
+        "coverage": 0.6667,
+        "quality": "partial",
+        "low_sample": false,
+        "sample_size": null,
+        "evidence": {
+          "dns.google_ms": 61,
+          "dns.system_ms": 66
+        },
+        "missing_metrics": [
+          "dns.cloudflare_ms"
+        ],
+        "notes": [
+          "dns 수집 상태: partial (성능 감점과 구분)",
+          "결측·유효하지 않은 지표는 점수 입력에서 제외합니다."
+        ],
+        "deductions": []
+      },
+      "tcp": {
+        "score": 100,
+        "severity": "normal",
+        "available": true,
+        "coverage": 1,
+        "quality": "complete",
+        "low_sample": false,
+        "sample_size": 136,
+        "evidence": {
+          "tcp.rst": 0,
+          "tcp.zero_window": 0,
+          "tcp.duplicate_ack": 0,
+          "tcp.captured_packets": 136,
+          "tcp.retransmission_pct": 0
+        },
+        "missing_metrics": [],
+        "notes": [],
+        "deductions": []
+      },
+      "http": {
+        "score": 100,
+        "severity": "normal",
+        "available": true,
+        "coverage": 1,
+        "quality": "complete",
+        "low_sample": false,
+        "sample_size": null,
+        "evidence": {
+          "http.tls_ms": 67.72,
+          "http.ttfb_ms": 256.508,
+          "http.total_ms": 257.28,
+          "http.connect_ms": 125.545,
+          "http.status_code": 200
+        },
+        "missing_metrics": [],
+        "notes": [],
+        "deductions": []
+      },
+      "local": {
+        "score": 100,
+        "severity": "normal",
+        "available": true,
+        "coverage": 1,
+        "quality": "complete",
+        "low_sample": false,
+        "sample_size": null,
+        "evidence": {
+          "gateway_ping.avg_rtt_ms": 2.482,
+          "gateway_ping.packet_loss_pct": 0
+        },
+        "missing_metrics": [],
+        "notes": [],
+        "deductions": []
+      },
+      "internet": {
+        "score": 100,
+        "severity": "normal",
+        "available": true,
+        "coverage": 1,
+        "quality": "complete",
+        "low_sample": false,
+        "sample_size": null,
+        "evidence": {
+          "internet_ping.avg_rtt_ms": 2.832,
+          "internet_ping.packet_loss_pct": 0
+        },
+        "missing_metrics": [],
+        "notes": [],
+        "deductions": []
+      }
+    },
+    "top_causes": [],
+    "created_at": "2026-10-08T08:36:52.803003Z"
+  },
+  "new_measurement_ids": [
+    41
+  ],
+  "after_count": 32,
+  "old_ids_21_to_40_unchanged": true,
+  "local_files_unchanged": true,
+  "pending_count": 1,
+  "unexpected_private_fields": [],
+  "ntp_synchronized_after_measurement": "yes",
+  "chrony_tracking_after_measurement": "Reference ID    : D8EF2308 (time3.google.com)\nStratum         : 2\nRef time (UTC)  : Thu Oct 08 08:36:42 2026\nSystem time     : 0.000181322 seconds slow of NTP time\nLast offset     : +0.000159436 seconds\nRMS offset      : 0.001428791 seconds\nFrequency       : 15.245 ppm slow\nResidual freq   : -2.045 ppm\nSkew            : 0.353 ppm\nRoot delay      : 0.061461478 seconds\nRoot dispersion : 0.001165015 seconds\nUpdate interval : 65.0 seconds\nLeap status     : Normal\n"
+}

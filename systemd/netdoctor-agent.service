@@ -1,0 +1,17 @@
+[Unit]
+Description=NetDoctor periodic diagnosis
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+User=@USER@
+SupplementaryGroups=wireshark
+WorkingDirectory=@PROJECT_DIR@
+EnvironmentFile=-/etc/netdoctor-agent.env
+ExecStart=/usr/bin/python3 -m netdoctor.main diagnose
+TimeoutStartSec=180
+ProtectSystem=strict
+ProtectHome=read-only
+PrivateTmp=true
+ReadWritePaths=@PROJECT_DIR@/data

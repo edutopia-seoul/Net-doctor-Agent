@@ -1,0 +1,27 @@
+{
+  "checked_at": "2026-10-08T08:39:26.014320+00:00",
+  "measurement_id": 41,
+  "contract_storage_verified": true,
+  "unmodeled_auxiliary_field": "metrics.dns.query_success",
+  "auxiliary_field_preserved_in_local_evidence": {
+    "system": true,
+    "cloudflare": false,
+    "google": true
+  },
+  "queue_before": 1,
+  "queue_after": 0,
+  "queue_file_processed": "2026-10-08T08-36-13.083736+00-00-a2fe8202e12a42028e38d8b9f9d6be42.json",
+  "reupload_performed": false,
+  "measurement_get_http": 200,
+  "list_http": 200,
+  "history_http": 200,
+  "diagnosis_http": 200,
+  "v1_history_http": 200,
+  "v1_history_id41_health_score": null,
+  "v11_history_id41_present": true,
+  "new_timestamp_match_count": 1,
+  "server_ids_21_to_40_unchanged": true,
+  "original_local_files_unchanged": true,
+  "after_count": 32,
+  "ntp_synchronized_before_restore": "yes"
+}
